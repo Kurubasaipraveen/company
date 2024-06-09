@@ -1,0 +1,13 @@
+/* Write your CSS here */
+
+/* src/index.css */
+.statistics-container {
+  padding: 20px;
+}
+
+.statistics-box {
+  background-color: #ffd700;
+  padding: 10px;
+  margin: 10px;
+}
+

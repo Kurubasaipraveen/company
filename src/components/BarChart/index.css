@@ -1,0 +1,88 @@
+/* src/index.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 50px;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header select,
+.header input,
+.header button {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.header select {
+  margin-right: 10px;
+}
+
+.input {
+  width: 200px;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.bar-chart {
+  margin-top: 150px;
+}
+
+.bar-chart h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.bar-chart-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bar {
+  flex: 1;
+  margin: 0 5px;
+  text-align: center;
+}
+
+.bar .label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.bar .bar-graph {
+  background-color: #f0f0f0;
+  height: 150px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.bar .fill {
+  background-color: #007bff;
+  width: 100%;
+}
+
+.bar .count {
+  font-size: 14px;
+  margin-top: 5px;
+}
