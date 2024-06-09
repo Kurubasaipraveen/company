@@ -1,3 +1,5 @@
+import './index.css'
+
 const BarChart = ({data}) => (
   <div className="bar-chart">
     <h2>Price Range Distribution</h2>
